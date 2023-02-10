@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .calculator {
+    display: box;
+    box-sizing: border-box;
+    background-color: rgb(220, 220, 220);
+    width: 370px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .containier {
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .screen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    overflow: hidden;
+    height: 100px;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .current {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .previous {
+    color: rgb(31, 30, 30);
+    font-size: large;
+    opacity: 0.9;
+  }
+  
+  .row-memory-functions {
+    display: flex;
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .row-memory-functions button {
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .row1 {
+    display: flex;
+  }
+  
+  .functions button {
+    width: 134px;
+  }
+  
+  .functions {
+    display: flex;
+  }
+  
+  .col {
+    margin: 2px;
+  }
+  .dropdown-toggle img{
+    height: 20px;
+  }
+  .dropdown-toggle span{
+    font-weight: normal
+  }
+  button {
+    height: 40px;
+    width: 65px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    font-weight: 600;
+  }
+  
+  button.number {
+    font-weight: 800;
+    background-color: white;
+  }
+  
+  button:hover {
+    background-color: rgb(244, 244, 244);
+  }
+  
+  .equal {
+    background-color: rgb(20, 176, 228);
+  }
+  
+  #drp:hover {
+    background-color: transparent;
+    border: none;
+  }
+  
+  #drp {
+    background-color: transparent;
+  }
+  
+  .dropdown-menu {
+    background-color: rgb(240, 238, 238);
+    align-items: center;
+    padding: 2px;
+  }
+  
